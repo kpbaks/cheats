@@ -12,6 +12,8 @@ tmux kill-session -t <tmux_session>
 # Start a new tmux session with a given name
 tmux new-session -s <session_name>
 
+# Start a new tmux session with the name mysession and window mywindow
+tmux new -s <mysession> -n <mywindow>
 
 $ tmux_session: tmux list-sessions | cut --delimiter ":" --fields 1
 
