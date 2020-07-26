@@ -1,0 +1,9 @@
+% fish, shell, builtin
+
+# List the names of all builtin functions/commands in fish
+builtin --names
+
+# Test if any of the specified builtins exists in fish
+buitin --query <builtins>
+
+$ builtin --names
