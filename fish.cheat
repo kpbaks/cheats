@@ -6,4 +6,7 @@ builtin --names
 # Test if any of the specified builtins exists in fish
 buitin --query <builtins>
 
+# Check if last command succeeded in fish
+echo $status
+
 $ builtin --names
