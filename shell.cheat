@@ -1,0 +1,10 @@
+% shell system
+
+# List all available shells on your Linux system
+cat /etc/shells
+
+# Change your login shell
+chsh --shell <absolute_path_to_shell>
+
+
+$ absolute_path_to_shell: grep --regexp '^\/' /etc/shells

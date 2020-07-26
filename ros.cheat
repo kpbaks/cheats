@@ -1,0 +1,7 @@
+% ROS
+
+# cd to a ros directory
+roscd <directory>
+
+# launch a file within a ros package
+roslaunch <files>

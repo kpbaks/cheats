@@ -9,4 +9,4 @@ buitin --query <builtins>
 # Check if last command succeeded in fish
 echo $status
 
-$ builtin --names
+$ builtins: builtin --names
