@@ -1,0 +1,36 @@
+% Arch, pacman
+
+# Install a single package from the offical Arch repository
+pacman -S <package_name>
+
+# Remove a single package, leaving all of its dependencies installed
+pacman -R <package_name>
+
+# Remove a package and its dependencies which are not required by any other installed package
+pacman -Rs <package_name>
+
+# Update all packages on an Arch system
+pacman -Syu
+
+# Display extensive information about a given package
+pacman -Si <package_name>
+
+# Retrieve a list of the files installed by a package
+pacman -Ql <package_name>
+
+# Verify the presence of the files installed by a package
+pacman -Qk <package_name>
+
+# List all packages no longer required as dependencies (orphans)
+pacman -Qdt
+
+# List all packages explicitly installed and not required as dependencies
+pacman -Qet
+
+# Remove all the cached packages that are not currently installed, and the unused sync database
+pacman -Sc
+
+# Download a package without installing it
+pacman -Sw <package_name>
+
+
