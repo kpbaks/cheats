@@ -1,0 +1,18 @@
+% tmux 
+
+# Attach to an active tmux session 
+tmux a -t <tmux_session>
+
+# List all active tmux sessions
+tmux ls
+
+# Kill an active tmux session 
+tmux kill-session -t <tmux_session>
+
+# Start a new tmux session with a given name
+tmux new-session -s <session_name>
+
+
+$ tmux_session: tmux ls | cut --delimiter ":" --fields 1
+
+
