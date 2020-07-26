@@ -1,0 +1,16 @@
+% Rust, build-tool, 'package manager'
+
+# Compile a local package and all of its dependencies
+cargo build
+
+# Compile package with optimizations enabled
+cargo build --release
+
+# Start new rust project
+cargo new --bin <project_name>
+
+# Execute all unit and integration tests and build examples of a local package
+cargo test
+
+# Build a package's documentation
+cargo doc
