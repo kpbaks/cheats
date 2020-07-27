@@ -1,0 +1,9 @@
+% library, dependencies, executable, binary
+
+# Display shared library of a binary executable
+ldd <path_to_binary>
+
+# Display unused direct dependencies of a binary executable
+ldd --unused <path_to_binary>
+
+

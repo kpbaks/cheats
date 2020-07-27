@@ -1,0 +1,6 @@
+% youtube, music
+
+# Download best audio format from youtube url to mp3
+youtube-dl --format bestaudio --extract-audio --audio-format <youtube_URL>
+
+

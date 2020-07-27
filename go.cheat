@@ -1,0 +1,8 @@
+% Go, compiler
+
+# Run gofmt on package sources
+go fmt
+
+# Test packages
+go test
+
