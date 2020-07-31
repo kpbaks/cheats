@@ -1,0 +1,8 @@
+% ip-address, network
+
+# Get ip address
+ip -a | awk '/127.0.0.1 {next} /inet / {print $2}' | cut --delimiter / --fields 1
+
+# Get network information in JSON format
+curl -s ipinfo.io | jq
+
