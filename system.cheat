@@ -1,0 +1,13 @@
+% system
+
+# shutdown machine
+sudo shutdown -h now
+
+# restart/reboot machine 
+reboot
+
+# forcefully reboot machine 
+reboot --force
+
+# cancel upcomming shutdown
+shutdown -c 

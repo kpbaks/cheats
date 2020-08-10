@@ -1,0 +1,7 @@
+% music, cmus
+
+# Start current playing track from the beginning, or if paused start it again
+cmus-remote --play
+
+# Toggle the pause status of the current song
+cmus-remote --pause

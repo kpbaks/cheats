@@ -1,0 +1,13 @@
+% tar, compression
+
+# Extract an uncompressed archieve
+tar -xvf 
+
+# Create an uncompressed archieve
+tar -cvf </path/to/foo.tar> </path/to/foo>
+
+# Extract a .gz archieve
+tar -xzvf <path/to/foo.tgz>
+
+# Create a .gz archieve 
+

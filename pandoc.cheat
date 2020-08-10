@@ -1,0 +1,6 @@
+% pandoc, markdown, pdf, html
+
+
+$ pandoc_input_formats: pandoc --list-input-formats
+
+$ pandoc_output_formats: pandoc --list-output-formats
