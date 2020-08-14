@@ -1,0 +1,5 @@
+% gnome,DE
+
+# set background in gnome DE
+gsettings set org.gnome.desktop.background picture-uri <path/to/file>
+
