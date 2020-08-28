@@ -9,4 +9,11 @@ buitin --query <builtins>
 # Check if last command succeeded in fish
 echo $status
 
+# Change fish to vi mode
+fish_vi_key_bindings
+
+# Change fish to default/emacs mode
+fish_default_key_bindings
+
+
 $ builtins: builtin --names
