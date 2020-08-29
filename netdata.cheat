@@ -1,6 +1,4 @@
 % system, netdata, monitor
 
 # Open netdata in your browser
-<browser> http://localhost:19999
-
-$ browser: $BROWSER
+firefox http://localhost:19999
