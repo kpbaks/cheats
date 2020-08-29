@@ -1,0 +1,6 @@
+% debug, gdb
+
+# Check which version of python gdb is compiled with
+gdb --batch -ex 'python import sys; print(sys.version)'
+
+
