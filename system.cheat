@@ -3,11 +3,14 @@
 # shutdown machine
 sudo shutdown -h now
 
-# restart/reboot machine 
+# restart/reboot machine
 reboot
 
-# forcefully reboot machine 
+# forcefully reboot machine
 reboot --force
 
 # cancel upcomming shutdown
-shutdown -c 
+shutdown -c
+
+# enter BIOS
+systemctl reboot --firmware-setup
