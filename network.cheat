@@ -6,3 +6,12 @@ ip -a | awk '/127.0.0.1 {next} /inet / {print $2}' | cut --delimiter / --fields 
 # Get network information in JSON format
 curl -s ipinfo.io | jq
 
+; -------------------------------------------------------------------------------------------------
+
+% nmcli, network
+
+# Show available wireless network SSID, mode, channel, transfer rate, signal strength and security
+nmcli dev wifi
+
+# Show extra information like about scanned WIFI networks, including the SSID-HEX, BSSID and frequency
+nmcli --fields ALL dev wifi
