@@ -1,0 +1,4 @@
+% kitty
+
+# Get the PostScript name for a font
+kitty + list-fonts --psnames

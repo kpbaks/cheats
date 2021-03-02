@@ -1,0 +1,7 @@
+% git
+
+# check remote's name
+git remote -v 
+
+# see what branches are available in the repository
+git branch -r
