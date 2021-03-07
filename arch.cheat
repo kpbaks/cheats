@@ -33,4 +33,10 @@ pacman -Sc
 # Download a package without installing it
 pacman -Sw <package_name>
 
+% AUR, paru
 
+# Upgrade all AUR packages
+paru -Sua
+
+# Print available AUR updates
+paru -Qua
