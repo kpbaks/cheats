@@ -21,6 +21,9 @@ pacman -Si <package_name>
 # Retrieve a list of the files installed by a package
 pacman -Ql <package_name>
 
+# Display information on a given package
+pacman --query --info <package_name>
+
 # Verify the presence of the files installed by a package
 pacman -Qk <package_name>
 
@@ -43,3 +46,9 @@ paru -Sua
 
 # Print available AUR updates
 paru -Qua
+
+# Print the PKGBUILD of an AUR package 
+paru --getpkgbuild --print 
+
+# Print the AUR comments of a package
+paru --getpkgbuild --comments 
