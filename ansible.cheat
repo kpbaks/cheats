@@ -1,0 +1,6 @@
+% ansible
+
+# syntax check ansible playbook
+ansible-playbook <playbook> --syntax-check
+
+$ playbook: fd -e yml -e yaml
