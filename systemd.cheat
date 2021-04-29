@@ -1,0 +1,21 @@
+% systemd, systemctl
+
+# check if a unit is active:
+systemctl is-active <unit>
+
+# check if a unit is enabled:
+systemctl is-enabled <unit>
+
+# Reload systemd, scanning for new or changed units:
+systemctl daemon-reload
+
+# Start/Stop/Restart/Reload a service
+systemctl <command> <unit>
+
+# Enable/Disable a unit to be started on bootup:
+systemctl <bootup_option> <unit>
+
+$ unit: foo
+
+$ bootup_option: echo "enable disable" | tr ' ' '\n'
+$ command: echo "reload restart start stop" | tr ' ' '\n'
