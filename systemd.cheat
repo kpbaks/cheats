@@ -12,10 +12,18 @@ systemctl daemon-reload
 # Start/Stop/Restart/Reload a service
 systemctl <command> <unit>
 
-# Enable/Disable a unit to be started on bootup:
-systemctl <bootup_option> <unit>
+# Enable a unit to be started on bootup:
+systemctl enable <disabled_services>
+
+
+# Disable a unit to be started on bootup:
+systemctl disable <enabled_services>
 
 $ unit: foo
 
 $ bootup_option: echo "enable disable" | tr ' ' '\n'
 $ command: echo "reload restart start stop" | tr ' ' '\n'
+$ mode: echo "--user --system" | tr ' ' '\n'
+
+$ disabled_services: systemctl <mode> list-unit-files --no-legend --type=service --state=disabled | sed --regexp-extended 's/(disabled|enabled)//g'
+$ enabled_services: systemctl <mode> list-unit-files --no-legend --type=service --state=enabled | sed --regexp-extended 's/(disabled|enabled)//g'
