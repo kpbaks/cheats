@@ -1,4 +1,8 @@
-% editorconfig
+% editorconfig, dotfiles
 
 # Download your default .editorconfig file into current directory
 curl --remote-name https://gist.githubusercontent.com/Kristoffer-PBS/7bd357608a5cd73546c9e7aa354ba2d1/raw/b789b016f62b854ab0828a802856e29f1483fd44/.editorconfig
+
+% tmux, dotfiles
+# Download your default .tmux.conf file into ~/.tmux.conf
+curl --output https://gist.githubusercontent.com/Kristoffer-PBS/44c65014b381fbdd8296a4ba4ae272b8/raw/dfc10335eb1c69540fbb6ec5a8926a903fe457a9/.tmux.conf ~/.tmux.conf

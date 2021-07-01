@@ -42,10 +42,10 @@ pacman -Sw <package_name>
 % AUR, paru
 
 # Upgrade all AUR packages
-paru -Sua
+paru --sync --aur --upgrades
 
 # Print available AUR updates
-paru -Qua
+paru --query --aur --upgrades
 
 # Print the PKGBUILD of an AUR package 
 paru --getpkgbuild --print 
