@@ -1,0 +1,7 @@
+% clipboard, pastebin
+
+# pipe output of command to system clipboard
+<cmd> | pbcopy
+
+
+$ cmd:
