@@ -1,0 +1,4 @@
+% python, jupyter
+
+# start jupyter lab in current directory
+jupyter lab .
