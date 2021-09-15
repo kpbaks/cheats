@@ -1,0 +1,10 @@
+% ocaml
+
+# generate skeleton interface *.mli from implementation *.ml
+for file in (fd -e ml); ocamlc -i "$file" > "$file"i; end
+
+% ocaml, dune
+
+# build and generate documentation
+dune build @doc
+
