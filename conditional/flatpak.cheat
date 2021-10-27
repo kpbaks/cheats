@@ -1,0 +1,6 @@
+% flatpak, filesystem
+
+# give flatpak app access to the entire host filesystem.
+sudo flatpak override <flatpak-app> --filesystem=host
+
+$ flatpak-app: flatpak list --app --columns=application | tail --lines +1
