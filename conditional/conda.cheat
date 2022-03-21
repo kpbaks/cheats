@@ -1,0 +1,4 @@
+% python, conda, virtualenv
+
+# deactivate conda environment
+conda deactivate

@@ -15,5 +15,11 @@ fish_vi_key_bindings
 # Change fish to default/emacs mode
 fish_default_key_bindings
 
+# print directory stack
+dirs
+
+# clear directory stack
+dirs -c
+
 
 $ builtins: builtin --names

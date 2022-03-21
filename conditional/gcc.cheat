@@ -1,0 +1,4 @@
+% gcc, compiler, c, cpp
+
+# list gcc’s pre-defined macros
+gcc -x c /dev/null -dM -E

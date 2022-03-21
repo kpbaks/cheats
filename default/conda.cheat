@@ -3,7 +3,4 @@
 # activate conda environment
 conda activate <env>
 
-# deactivate conda environment
-conda deactivate
-
 $ env: ls /home/kristoffer/.miniconda3/envs

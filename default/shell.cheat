@@ -1,0 +1,18 @@
+% shell, unix epoch
+
+# Get current time as a Unix timestamp (seconds since the Unix epoch)
+date +%s
+
+% shell, ip, ipv4, network
+# Get the IPv4 address of the host (without netmask postfix)
+ip address | grep --only-matching "inet .* brd" | cut --delimiter " " --fields 2 | cut --delimiter "/" --fields 1
+
+# Get the IPv4 address of the host
+ip address | grep --only-matching "inet .* brd" | cut --delimiter " " --fields 2 
+
+% shell, ip, ipv6, network
+# Get the IPv6 address(es) of the host (without netmask postfix)
+ip -6 address | grep --only-matching "inet6 .* scope" | cut --delimiter " " --fields 2 | cut --delimiter "/" --fields 1
+
+# Get the IPv6 address(es) of the host
+ip -6 address | grep --only-matching "inet6 .* scope" | cut --delimiter " " --fields 2

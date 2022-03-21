@@ -1,0 +1,13 @@
+% jupyter
+
+# open retrolab
+jupyter retro --retro-logo
+
+
+% jupyter, html, md, latex, pdf
+# convert *.ipynb to another output format
+jupyter nbconvert --to <output-fmt> <ipynb-file>
+
+$ output-format: echo "html pdf latex webpdf slides markdown asciidoc rst script notebook" | tr " " "\n"
+
+$ ipynb-file: fd --extension ipynb

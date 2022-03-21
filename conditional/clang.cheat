@@ -1,0 +1,4 @@
+% clang, compiler, c, cpp
+
+# list clang’s pre-defined macros
+clang -x c /dev/null -dM -E

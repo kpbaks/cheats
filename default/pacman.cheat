@@ -1,0 +1,13 @@
+% arch, pacman
+
+# make full system ugrade
+sudo pacman --sync --refresh --sysupgrade
+
+# list packages that can be upgraded
+sudo pacman --query --upgrades
+
+# list number of packages that can be upgraded
+sudo pacman --query --upgrades | wc --lines
+
+# refresh (even if they appear to be up-to-date) all package database defined in pacman.conf
+sudo pacman --sync --refresh --refresh

@@ -1,0 +1,7 @@
+% X11, GUI, container
+
+# Allow X server connection
+xhost +local:root
+
+# Disallow X server connection
+xhost -local:root
